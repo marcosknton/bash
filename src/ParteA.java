@@ -15,6 +15,7 @@ public class ParteA {
             BufferedReader bf=new BufferedReader(new InputStreamReader(proceso.getInputStream()));
             System.out.println(bf.readLine().toString());
             bf.close();
+            System.out.print("hola");
 
         }catch (Exception e){
             System.out.print(e);
